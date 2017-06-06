@@ -8,7 +8,6 @@ com\websystique\springmvc\repositories\UserRepository.class
 com\websystique\springmvc\model\AuthTokenInfo.class
 com\websystique\springmvc\service\UserService.class
 com\websystique\springmvc\service\impl\CustomUserDetailService.class
-com\websystique\springmvc\configuration\SwaggerConfig.class
 com\websystique\springmvc\security\ResourceServerConfiguration.class
 com\websystique\springmvc\configuration\DatabaseConfiguration.class
 com\websystique\springmvc\security\MethodSecurityConfig.class

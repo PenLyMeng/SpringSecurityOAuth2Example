@@ -11,10 +11,10 @@ import java.util.List;
  * Created by k.tith on 5/6/2017.
  */
 
-@Repository
+@Repository("userRepository")
 public interface UserRepository {
 
-    @Select("SELECT * FROM sis_banner where school_id=#{sid} LIMIT #{paging.limit} OFFSET #{paging.offset}")
+    @Select("SELECT * FROM Users where username=#{username}")
     User getByUsername(String username);
 
     void saveUser(User user);

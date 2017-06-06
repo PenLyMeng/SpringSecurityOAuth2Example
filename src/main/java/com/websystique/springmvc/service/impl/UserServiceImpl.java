@@ -5,6 +5,7 @@ import com.websystique.springmvc.model.User;
 import com.websystique.springmvc.repositories.UserRepository;
 import com.websystique.springmvc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -18,6 +19,7 @@ public class UserServiceImpl implements UserService {
 
 
     @Autowired
+    @Qualifier("userRepository")
     UserRepository userRepository;
 
 
