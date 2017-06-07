@@ -8,19 +8,23 @@ import java.util.Collection;
 public class User  implements UserDetails{
 
 	private long id;
+	private String firstName;
+	private String lastName;
 	private String username;
 	private String password;
-	private String role;
-
+	private String phone;
 
 	public User(){
 		id=0;
 	}
-	
-	public User(long id, String name, int age, double salary){
-		this.id = id;
-		this.username = name;
 
+	public User(long id, String name, int age, double salary){
+
+
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
 	public long getId() {
@@ -31,46 +35,32 @@ public class User  implements UserDetails{
 		this.id = id;
 	}
 
-	public String getName() {
-		return username;
+	public String getFirstName() {
+		return firstName;
 	}
 
-	public void setName(String name) {
-		this.username = name;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
 
-
-
-	public String getUsername() {
-		return username;
+	public String getLastName() {
+		return lastName;
 	}
 
-
-
-	public void setUsername(String username) {
-		this.username = username;
-	}
-
-
-	public String getRole() {
-		return role;
-	}
-
-	public void setRole(String role) {
-		this.role = role;
-	}
-
-	@Override
-	public Collection<? extends GrantedAuthority> getAuthorities() {
-		return null;
-	}
-
-	public String getPassword() {
-		return password;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
 
 	@Override
@@ -84,7 +74,7 @@ public class User  implements UserDetails{
 
 	@Override
 	public String toString() {
-		return "id=" + id +", username=" + username + ", password=" +password + ", role=" + role  ;
+		return "id=" + id +", username=" + firstName+lastName + ", password=" +password  ;
 	}
 
 	@Override
@@ -102,6 +92,20 @@ public class User  implements UserDetails{
 	}
 
 
+	@Override
+	public Collection<? extends GrantedAuthority> getAuthorities() {
+		return null;
+	}
+
+	@Override
+	public String getPassword() {
+		return password;
+	}
+
+	@Override
+	public String getUsername() {
+		return getFirstName()+getLastName();
+	}
 
 	@Override
 	public boolean isAccountNonExpired() {

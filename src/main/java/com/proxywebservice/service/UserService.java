@@ -14,7 +14,7 @@ public interface UserService {
 	
 	void saveUser(User user);
 	
-	void updateUser(User user);
+
 	
 	void deleteUserById(long id);
 
@@ -22,6 +22,12 @@ public interface UserService {
 	
 	void deleteAllUsers();
 	
-	public boolean isUserExist(User user);
-	
+	boolean isUserExist(User user);
+
+	User login(User user);
+	boolean signup(User user);
+    boolean updateUser(User user);
+	boolean removeUser(long id);
+
+
 }

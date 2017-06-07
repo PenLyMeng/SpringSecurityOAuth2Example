@@ -27,13 +27,58 @@ public class UserRestController {
 
 
 
-    @RequestMapping(value = "/user/", method = RequestMethod.GET)
-    public String getUser() {
+    @RequestMapping(value = "/user/login", method = RequestMethod.POST)
+    public boolean login() {
 
-        return "Pen Lymeng";
+        User user = new User();
+        user.setId(0);
+        user.setFirstName("pen");
+        user.setLastName("lymeng");
+        user.setPassword("Penlymeng123");
+        user.setPhone("086585891");
+
+        if( userService.login(user) == null){
+            return false;
+        }
+
+        return  true;
+    }
+
+    @RequestMapping(value = "/user/signup", method = RequestMethod.POST)
+    public boolean signUp() {
+        User user = new User();
+        user.setId(0);
+        user.setFirstName("pen");
+        user.setLastName("lymeng");
+        user.setPassword("Penlymeng123");
+        user.setPhone("086585891");
+
+
+        return  userService.signup(user);
+    }
+
+
+    @RequestMapping(value = "/user/update", method = RequestMethod.PATCH)
+    public boolean updateUser() {
+        User user = new User();
+        user.setId(1);
+        user.setFirstName("pen");
+        user.setLastName("lymeng");
+        user.setPassword("Penlymeng123");
+        user.setPhone("086585891");
+
+
+        return  userService.updateUser(user);
     }
 
 
 
+
+    @RequestMapping(value = "api/user/remove", method = RequestMethod.DELETE)
+    public boolean deleteUser() {
+        return  userService.removeUser(0);
+    }
+
+    }
+
  
-}

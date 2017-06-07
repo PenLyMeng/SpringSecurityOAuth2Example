@@ -40,8 +40,13 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void updateUser(User user) {
+    public boolean updateUser(User user) {
+            return userRepository.updateUser(user);
+    }
 
+    @Override
+    public boolean removeUser(long id) {
+        return userRepository.removeUser(id);
     }
 
     @Override
@@ -62,6 +67,16 @@ public class UserServiceImpl implements UserService {
     @Override
     public boolean isUserExist(User user) {
         return false;
+    }
+
+    @Override
+    public User login(User user) {
+        return userRepository.login(user);
+    }
+
+    @Override
+    public boolean signup(User user) {
+        return userRepository.signup(user);
     }
 
     /*@Autowired*/

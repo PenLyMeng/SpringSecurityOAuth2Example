@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="gl_mb_proxy_service:war">
     <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="SpringSecurityOAuth2Example.war">
+    <root id="archive" name="NEne.war">
       <element id="artifact" artifact-name="gl_mb_proxy_service:war exploded" />
     </root>
   </artifact>
