@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gl_mb_proxy_service" />
         <module name="SpringSecurityOAuth2Example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="gl_mb_proxy_service" target="1.7" />
       <module name="SpringSecurityOAuth2Example" target="1.7" />
     </bytecodeTargetLevel>
   </component>

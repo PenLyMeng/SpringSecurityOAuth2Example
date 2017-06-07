@@ -1,18 +1,17 @@
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\security\AuthorizationServerConfiguration.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\security\OAuth2SecurityConfiguration.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\security\ResourceServerConfiguration.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\service\impl\UserServiceImpl.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\configuration\ComponentInitializer.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\controller\HelloWorldRestController.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\configuration\SwaggerConfig.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\security\MethodSecurityConfig.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\configuration\DatabaseConfiguration.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\service\UserService.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\service\impl\CustomUserDetailService.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\security\SecurityWebApplicationInitializer.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\repositories\UserRepository.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\configuration\ComponentConfiguration.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\model\User.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\service\UserServiceImpl.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\configuration\CORSFilter.java
-C:\Users\l.pen\Desktop\SpringSecurityOAuth2Example\src\main\java\com\websystique\springmvc\model\AuthTokenInfo.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\configuration\ComponentConfiguration.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\configuration\DatabaseConfiguration.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\security\OAuth2SecurityConfiguration.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\configuration\SwaggerConfig.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\model\User.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\service\impl\CustomUserDetailService.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\security\AuthorizationServerConfiguration.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\security\ResourceServerConfiguration.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\repositories\UserRepository.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\service\UserService.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\security\MethodSecurityConfig.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\security\SecurityWebApplicationInitializer.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\configuration\WebInitializer.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\model\AuthTokenInfo.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\service\impl\UserServiceImpl.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\configuration\CORSFilter.java
+C:\Users\l.pen\Desktop\New folder (3)\gl_mb_proxy_service\src\main\java\com\proxywebservice\controller\UserRestController.java
